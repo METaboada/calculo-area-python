@@ -1,0 +1,33 @@
+-----------------------------------------------
+Problemática:
+El usuaro quiere saber cual es el área de un círculo
+teniendo el radio
+-----------------------------------------------
+
+
+-----------------------------------------------
+Algoritmo:
+1. Solicitar al usaurio que ingrese el radio del círculo que quiere calcular
+2. Calcular el área del círculo utilizando la fórmula "area = pi x radio^2"
+3. Mostrar al usaurio el área calculada
+-----------------------------------------------
+
+
+-----------------------------------------------
+Pseudocódigo:
+
+Inicio
+    # Paso 1: Solicitar al usaurio que ingrese el radio del círculo que quiere calcular
+    Mostrar mensaje: "Por favor ingrese el radio del círculo: "
+    Leer el dato ingresado y asociarlo a la variable radio de tipo flotante
+    
+    # Paso 2: Calcular el área del círculo utilizando la fórmula "area = pi x radio^2"
+    Definir y asignar a la variable area el resultado de pi x radio^2
+
+    # Paso 3: Mostrar al usaurio el área calculada
+    Mostrar mensaje: "El área del círculo con radio", radio, "es", area
+Fin
+-----------------------------------------------
+
+
+
